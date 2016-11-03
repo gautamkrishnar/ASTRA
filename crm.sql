@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.1.14
+-- version 4.0.10deb1
 -- http://www.phpmyadmin.net
 --
--- Host: 127.0.0.1
--- Generation Time: Nov 03, 2016 at 08:16 PM
--- Server version: 5.6.17
--- PHP Version: 5.5.12
+-- Host: localhost
+-- Generation Time: Nov 04, 2016 at 01:00 AM
+-- Server version: 5.5.53-0ubuntu0.14.04.1
+-- PHP Version: 5.5.9-1ubuntu4.20
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -19,6 +19,22 @@ SET time_zone = "+00:00";
 --
 -- Database: `crm`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `certificates`
+--
+
+CREATE TABLE IF NOT EXISTS `certificates` (
+  `cid` int(100) NOT NULL AUTO_INCREMENT,
+  `cname` varchar(500) NOT NULL,
+  `officergrp` int(50) NOT NULL,
+  `highergrp` int(50) NOT NULL,
+  `maxdays` int(50) NOT NULL,
+  PRIMARY KEY (`cid`),
+  UNIQUE KEY `cname` (`cname`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
 
 -- --------------------------------------------------------
 
