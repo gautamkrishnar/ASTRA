@@ -1,0 +1,11 @@
+var oc_debug=false;
+var oc_isadmin=false;
+var oc_webroot="";
+var oc_appswebroots={"files":"/apps/files","aadhaar_profile":"/apps/aadhaar_profile","activity":"/apps/activity","cbse":"/apps/cbse","dashboard":"/apps/dashboard","description":"/apps/description","e_sign":"/apps/e_sign","esignapi":"/apps/esignapi","external":"/apps/external","files_locking":"/apps/files_locking","files_pdfviewer":"/apps/files_pdfviewer","files_sharing":"/apps/files_sharing","files_trashbin":"/apps/files_trashbin","firstrunwizard":"/apps/firstrunwizard","issued_docs":"/apps/issued_docs","partners":"/apps/partners","passwordpolicy":"/apps/passwordpolicy","provisioning_api":"/apps/provisioning_api","settings_backends":"/apps/settings_backends","shared_email":"/apps/shared_email","templateeditor":"/apps/templateeditor","user_aadhaar":"/apps/user_aadhaar","user_facebook":"/apps/user_facebook","user_google":"/apps/user_google"};
+var datepickerFormatDate="M\/d\/yy";
+var dayNames=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+var monthNames=["January","February","March","April","May","June","July","August","September","October","November","December"];
+var firstDay=0;
+var oc_config={"session_lifetime":"1800","session_keepalive":true,"version":"8.0.2.0","versionstring":"8.0.2"};
+var oc_appconfig={"core":{"defaultExpireDateEnabled":false,"defaultExpireDate":null,"defaultExpireDateEnforced":null,"enforcePasswordForPublicLink":false,"sharingDisabledForUser":false,"resharingAllowed":true}};
+var oc_defaults={"entity":"DigiLocker","name":"DigiLocker","title":"DigiLocker","baseUrl":"https:\/\/digilocker.gov.in\/","gatewayUrl":"https:\/\/digilocker.gov.in\/public\/","syncClientUrl":"https:\/\/owncloud.org\/sync-clients\/","docBaseUrl":"http:\/\/doc.owncloud.org","slogan":{},"logoClaim":"","shortFooter":"<a href=\"https:\/\/digilocker.gov.in\/\" target=\"_blank\">DigiLocker<\/a> \u2013  A platform for secured document locker","longFooter":"<a href=\"https:\/\/digilocker.gov.in\/\" target=\"_blank\">DigiLocker<\/a> \u2013  A platform for secured document locker"};
