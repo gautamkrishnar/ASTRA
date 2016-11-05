@@ -5,7 +5,7 @@ ASTRA, A fully integrated workflow management system for government offices with
 
 
 #### About ASTRA
-Astra is a project developed as a part of Hack4People National Hackathon held at Sahrdaya College of Engineering and Technology 3,4,5 November, 2016.
+Astra is a project developed as a part of Hack4People National Hackathon held at Sahrdaya College of Engineering and Technology on 3,4,5 November, 2016.
 
 #### Team Members
 * [Gautam krishna R](http://github.com/gautamkrishnar)
